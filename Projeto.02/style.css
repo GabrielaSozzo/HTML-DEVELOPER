@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div.cabecalho {
+    height: 300px;
+    width: 100%;
+}
+
+
+div.cabecalho > img{
+    height: 300px;
+    width: 100%;
+}
+
+div.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    width: 230px;
+    background-color: #8DAEF2;
+    float: left;
+    line-height: 60px;
+    padding: 6px;
+    text-align: center;
+}
+
+li > a{
+    color: #1A2440;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+li > a:hover{
+    background-color: #1A2440;
+    color: #8DAEF2;
+}
+
+div.conteudo {
+    height: 500px;
+    width: 100%;
+    background-color:#bccbe8;
+    padding: 6px;
+}
+
+div.main {
+    padding-left: 290px;
+    padding-right: 100px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 700px;
+    height: 200px;
+}
+
+th{
+    background-color: #1A2440;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: #bccbe8;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;  
+}
+
+div.iframe{
+   padding-top: 50px;
+   float: left;
+}
+
+div.formulario{
+    padding-right: 70px;
+    padding-top: 50px;
+    float: right;
+}
+
+div.formulario > form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #1A2440;
+    border-radius: 10px;
+}
+
+button{
+    padding: 4px;
+    width: 160px;
+    border: 1px solid #1A2440;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: #1A2440;
+    color: #bccbe8;
+}
+
+div.rodape {
+    height: 90px;
+    width: 100%;
+    background-color: #1A2440;
+}
+
+footer{
+    padding-top: 28px;
+}
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bccbe8;
+    text-align: center;
+    
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: #bccbe8;
+    font-weight: bold;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A2440;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
